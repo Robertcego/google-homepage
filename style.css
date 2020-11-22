@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+nav {
+    
+} 
+
+.top-bar {
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 13.5px;
+}
+
+.sign-button {
+    background-color: #4285F4;
+    color: white;
+    padding: 15px;
+    border-radius: 5%;
+}
+
+.center {
+    text-align: center;
+}
+
+.input-box input{
+    height: 34px;
+    width: 487px;
+    position: relative;
+}
+
+.input-box i {
+    position: absolute;
+}
