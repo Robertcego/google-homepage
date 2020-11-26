@@ -34,11 +34,27 @@ li {
 }
 
 .input-box input{
-    height: 34px;
+    height: 44px;
     width: 487px;
     position: relative;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
 }
 
 .input-box i {
     position: absolute;
+}
+
+.search-buttons {
+    padding-top: 18px;
+    top: 53px;
+}
+
+.center button {
+    background-color: #f8f9fa;
+    height: 36px;
+    font-size: 14px;
+    padding: 0 16px;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
 }
